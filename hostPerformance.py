@@ -100,7 +100,7 @@ with open(file, newline='') as csvfile:
             countryData[NOC][year] = count
         previousYear = year
     #print(medalTotal)
-    print(hostCountryWins)
+    #print(hostCountryWins)
     #print(countryData)
     for country in countryData:
         #print(country)
