@@ -1,0 +1,5 @@
+Neccessary modules (may be more)
+
+csv
+matplotlib
+sklearn
