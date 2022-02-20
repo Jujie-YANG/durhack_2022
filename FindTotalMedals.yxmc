@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>athlete_events.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sex" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Age" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Height" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Weight" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Team" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NOC" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Games" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Year" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Season" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sport" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Event" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Medal" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="378" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="NOC" action="GroupBy" rename="NOC" />
+            <SummarizeField field="Event" action="GroupBy" rename="Event" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Event" size="255" source="Summarize: GroupBy - Event" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Year" order="Asc" />
+            <Field field="NOC" order="Asc" />
+            <Field field="Event" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="174" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Medal</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-02-19 21:02:55</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Gold</Operand>
+              <StartDate>2022-02-19 21:02:55</StartDate>
+              <EndDate>2022-02-19 21:02:55</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Medal] = "Gold"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="ID" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sex" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Age" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Height" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Weight" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Team" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NOC" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Games" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Year" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Season" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sport" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Event" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Medal" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="ID" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sex" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Age" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Height" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Weight" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Team" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NOC" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Games" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Year" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Season" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sport" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Event" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Medal" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="282" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Year" order="Ascending" />
+            <Field field="Team" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending
+Team - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sex" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Age" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Height" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Weight" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Team" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NOC" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Games" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Year" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Season" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sport" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Event" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Medal" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="678" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="NOC" action="GroupBy" rename="NOC" />
+            <SummarizeField field="Event" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Year" order="Asc" />
+            <Field field="NOC" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1014" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="NOC" order="Ascending" />
+            <Field field="Year" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NOC - Ascending
+Year - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1242" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\timof\AppData\Local\Temp\Engine_12632_3877400359dd46f4b22c604a66e11874_\Engine_27948_ed0baaa67ade46ca94592ea56f0ad6fb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1050" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Count" action="Sum" rename="Sum_Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="Sum_Count" source="Summarize: Sum - Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Year" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1506" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\timof\AppData\Local\Temp\Engine_12632_3877400359dd46f4b22c604a66e11874_\Engine_27948_065d75d66b444d998b9b584f2d0be292_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1326" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([Count]/[Sum_Count])*100" field="MedalPerc" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[MedalPerc = ([Count]/[Sum_Count])*100
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+            <Field name="Right_Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="Sum_Count" source="Summarize: Sum - Count" type="Int64" />
+            <Field name="MedalPerc" source="Formula: ([Count]/[Sum_Count])*100" type="Float" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Year" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1098" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Year" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Year" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Right_Year" selected="True" rename="Right_Year" input="Right_" />
+                <SelectField field="Right_NOC" selected="True" input="Right_" />
+                <SelectField field="Right_Count" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="ID" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sex" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Age" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Height" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Weight" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Team" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NOC" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Games" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Year" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Season" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sport" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Event" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Medal" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Year" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="City" size="255" source="File: C:\Users\timof\Downloads\athlete_events.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Right_Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Year" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1422" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\timof\Downloads\DenormilisedMedals.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DenormilisedMedals.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1218" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="City" action="GroupBy" rename="City" />
+            <SummarizeField field="Right_Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="NOC" action="GroupBy" rename="NOC" />
+            <SummarizeField field="Count" action="GroupBy" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="255" source="Summarize: GroupBy - City" type="V_String" />
+            <Field name="Year" size="255" source="Summarize: GroupBy - Right_Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: GroupBy - Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="City" order="Asc" />
+            <Field field="Right_Year" order="Asc" />
+            <Field field="NOC" order="Asc" />
+            <Field field="Count" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1302" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Year" order="Ascending" />
+            <Field field="NOC" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending
+NOC - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="255" source="Summarize: GroupBy - City" type="V_String" />
+            <Field name="Year" size="255" source="Summarize: GroupBy - Right_Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: GroupBy - Count" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1194" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Year" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Year" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Year" selected="True" rename="Right_Year" input="Right_" />
+                <SelectField field="Right_TotalYear" selected="False" rename="Right_TotalYear" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Year" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="NOC" size="255" source="Summarize: GroupBy - NOC" type="V_String" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+            <Field name="Right_Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="Sum_Count" source="Summarize: Sum - Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Year" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" />
+            <Field name="Sum_Count" source="Summarize: Sum - Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Year" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1554" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\timof\Downloads\PercMedals.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PercMedals.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="28" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>FindTotalMedals</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="966e9d05-f0a1-4988-b574-56c140f0a7c5" />
+      <Telemetry>
+        <PreviousWorkflowId value="b36dcd21-dc34-4ca3-a5ac-2773919b8cef" />
+        <OriginWorkflowId value="05960f27-d12b-44fb-b1a4-22659b57caab" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (39)</Name>
+          <ToolId value="39" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="23" Selected="False" />
+        <Tool ToolId="29" Selected="False" />
+        <Tool ToolId="33" Selected="True" />
+        <Tool ToolId="37" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
