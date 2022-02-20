@@ -1,0 +1,1454 @@
+City,Year,NOC,Count
+Athina,1896,AUS,2
+Athina,1896,AUT,2
+Athina,1896,DEN,1
+Athina,1896,FRA,5
+Athina,1896,GBR,3
+Athina,1896,GER,7
+Athina,1896,GRE,10
+Athina,1896,HUN,2
+Athina,1896,SUI,1
+Athina,1896,USA,11
+Paris,1900,AUS,3
+Paris,1900,BEL,6
+Paris,1900,CAN,1
+Paris,1900,CUB,1
+Paris,1900,DEN,2
+Paris,1900,ESP,1
+Paris,1900,FRA,28
+Paris,1900,GBR,19
+Paris,1900,GER,4
+Paris,1900,HAI,1
+Paris,1900,HUN,1
+Paris,1900,ITA,3
+Paris,1900,LUX,1
+Paris,1900,NED,1
+Paris,1900,NZL,1
+Paris,1900,SUI,6
+Paris,1900,SWE,1
+Paris,1900,USA,21
+St. Louis,1904,AUT,2
+St. Louis,1904,CAN,4
+St. Louis,1904,CUB,4
+St. Louis,1904,GBR,1
+St. Louis,1904,GER,4
+St. Louis,1904,GRE,1
+St. Louis,1904,HUN,2
+St. Louis,1904,NOR,2
+St. Louis,1904,SUI,1
+St. Louis,1904,USA,76
+Athina,1906,AUT,3
+Athina,1906,BEL,2
+Athina,1906,CAN,1
+Athina,1906,DEN,3
+Athina,1906,FIN,2
+Athina,1906,FRA,15
+Athina,1906,GBR,8
+Athina,1906,GER,4
+Athina,1906,GRE,8
+Athina,1906,HUN,2
+Athina,1906,ITA,7
+Athina,1906,NOR,1
+Athina,1906,SUI,4
+Athina,1906,SWE,2
+Athina,1906,USA,12
+London,1908,ANZ,1
+London,1908,BEL,1
+London,1908,CAN,3
+London,1908,FIN,1
+London,1908,FRA,5
+London,1908,GBR,56
+London,1908,GER,3
+London,1908,HUN,3
+London,1908,ITA,2
+London,1908,NOR,2
+London,1908,RSA,1
+London,1908,RUS,1
+London,1908,SWE,8
+London,1908,USA,22
+Stockholm,1912,ANZ,2
+Stockholm,1912,BEL,2
+Stockholm,1912,CAN,3
+Stockholm,1912,DEN,1
+Stockholm,1912,FIN,9
+Stockholm,1912,FRA,7
+Stockholm,1912,GBR,10
+Stockholm,1912,GER,6
+Stockholm,1912,GRE,1
+Stockholm,1912,HUN,3
+Stockholm,1912,ITA,5
+Stockholm,1912,NOR,4
+Stockholm,1912,RSA,4
+Stockholm,1912,SUI,1
+Stockholm,1912,SWE,24
+Stockholm,1912,USA,26
+Antwerpen,1920,BEL,16
+Antwerpen,1920,BRA,1
+Antwerpen,1920,CAN,3
+Antwerpen,1920,DEN,3
+Antwerpen,1920,EST,1
+Antwerpen,1920,FIN,15
+Antwerpen,1920,FRA,9
+Antwerpen,1920,GBR,14
+Antwerpen,1920,ITA,14
+Antwerpen,1920,NED,4
+Antwerpen,1920,NOR,10
+Antwerpen,1920,RSA,3
+Antwerpen,1920,SUI,2
+Antwerpen,1920,SWE,19
+Antwerpen,1920,USA,41
+Chamonix,1924,ARG,1
+Paris,1924,ARG,1
+Chamonix,1924,AUS,4
+Paris,1924,AUS,4
+Chamonix,1924,AUT,2
+Paris,1924,AUT,2
+Chamonix,1924,BEL,3
+Paris,1924,BEL,3
+Chamonix,1924,CAN,1
+Paris,1924,CAN,1
+Chamonix,1924,DEN,2
+Paris,1924,DEN,2
+Chamonix,1924,EST,1
+Paris,1924,EST,1
+Chamonix,1924,FIN,18
+Paris,1924,FIN,18
+Chamonix,1924,FRA,14
+Paris,1924,FRA,14
+Chamonix,1924,GBR,11
+Paris,1924,GBR,11
+Chamonix,1924,GRE,1
+Paris,1924,GRE,1
+Chamonix,1924,HUN,2
+Paris,1924,HUN,2
+Chamonix,1924,IND,1
+Paris,1924,IND,1
+Chamonix,1924,ITA,8
+Paris,1924,ITA,8
+Chamonix,1924,LUX,1
+Paris,1924,LUX,1
+Chamonix,1924,NED,4
+Paris,1924,NED,4
+Chamonix,1924,NEP,1
+Paris,1924,NEP,1
+Chamonix,1924,NOR,9
+Paris,1924,NOR,9
+Chamonix,1924,RSA,1
+Paris,1924,RSA,1
+Chamonix,1924,SUI,9
+Paris,1924,SUI,9
+Chamonix,1924,SWE,5
+Paris,1924,SWE,5
+Chamonix,1924,TCH,1
+Paris,1924,TCH,1
+Chamonix,1924,URU,1
+Paris,1924,URU,1
+Chamonix,1924,USA,46
+Paris,1924,USA,46
+Chamonix,1924,YUG,2
+Paris,1924,YUG,2
+Amsterdam,1928,ARG,3
+Sankt Moritz,1928,ARG,3
+Amsterdam,1928,AUS,1
+Sankt Moritz,1928,AUS,1
+Amsterdam,1928,AUT,3
+Sankt Moritz,1928,AUT,3
+Amsterdam,1928,CAN,5
+Sankt Moritz,1928,CAN,5
+Amsterdam,1928,DEN,3
+Sankt Moritz,1928,DEN,3
+Amsterdam,1928,EGY,2
+Sankt Moritz,1928,EGY,2
+Amsterdam,1928,ESP,1
+Sankt Moritz,1928,ESP,1
+Amsterdam,1928,EST,2
+Sankt Moritz,1928,EST,2
+Amsterdam,1928,FIN,10
+Sankt Moritz,1928,FIN,10
+Amsterdam,1928,FRA,8
+Sankt Moritz,1928,FRA,8
+Amsterdam,1928,GBR,4
+Sankt Moritz,1928,GBR,4
+Amsterdam,1928,GER,11
+Sankt Moritz,1928,GER,11
+Amsterdam,1928,HUN,5
+Sankt Moritz,1928,HUN,5
+Amsterdam,1928,IND,1
+Sankt Moritz,1928,IND,1
+Amsterdam,1928,IRL,1
+Sankt Moritz,1928,IRL,1
+Amsterdam,1928,ITA,7
+Sankt Moritz,1928,ITA,7
+Amsterdam,1928,JPN,2
+Sankt Moritz,1928,JPN,2
+Amsterdam,1928,LUX,1
+Sankt Moritz,1928,LUX,1
+Amsterdam,1928,NED,8
+Sankt Moritz,1928,NED,8
+Amsterdam,1928,NOR,7
+Sankt Moritz,1928,NOR,7
+Amsterdam,1928,NZL,1
+Sankt Moritz,1928,NZL,1
+Amsterdam,1928,POL,2
+Sankt Moritz,1928,POL,2
+Amsterdam,1928,RSA,1
+Sankt Moritz,1928,RSA,1
+Amsterdam,1928,SUI,7
+Sankt Moritz,1928,SUI,7
+Amsterdam,1928,SWE,9
+Sankt Moritz,1928,SWE,9
+Amsterdam,1928,TCH,2
+Sankt Moritz,1928,TCH,2
+Amsterdam,1928,URU,1
+Sankt Moritz,1928,URU,1
+Amsterdam,1928,USA,24
+Sankt Moritz,1928,USA,24
+Amsterdam,1928,YUG,1
+Sankt Moritz,1928,YUG,1
+Lake Placid,1932,ARG,3
+Los Angeles,1932,ARG,3
+Lake Placid,1932,AUS,3
+Los Angeles,1932,AUS,3
+Lake Placid,1932,AUT,2
+Los Angeles,1932,AUT,2
+Lake Placid,1932,CAN,3
+Los Angeles,1932,CAN,3
+Lake Placid,1932,FIN,6
+Los Angeles,1932,FIN,6
+Lake Placid,1932,FRA,12
+Los Angeles,1932,FRA,12
+Lake Placid,1932,GBR,5
+Los Angeles,1932,GBR,5
+Lake Placid,1932,GER,5
+Los Angeles,1932,GER,5
+Lake Placid,1932,HUN,6
+Los Angeles,1932,HUN,6
+Lake Placid,1932,IND,1
+Los Angeles,1932,IND,1
+Lake Placid,1932,IRL,2
+Los Angeles,1932,IRL,2
+Lake Placid,1932,ITA,12
+Los Angeles,1932,ITA,12
+Lake Placid,1932,JPN,7
+Los Angeles,1932,JPN,7
+Lake Placid,1932,NED,2
+Los Angeles,1932,NED,2
+Lake Placid,1932,NOR,3
+Los Angeles,1932,NOR,3
+Lake Placid,1932,POL,3
+Los Angeles,1932,POL,3
+Lake Placid,1932,RSA,2
+Los Angeles,1932,RSA,2
+Lake Placid,1932,SWE,11
+Los Angeles,1932,SWE,11
+Lake Placid,1932,TCH,1
+Los Angeles,1932,TCH,1
+Lake Placid,1932,USA,50
+Los Angeles,1932,USA,50
+Berlin,1936,ARG,2
+Garmisch-Partenkirchen,1936,ARG,2
+Berlin,1936,AUT,6
+Garmisch-Partenkirchen,1936,AUT,6
+Berlin,1936,CAN,1
+Garmisch-Partenkirchen,1936,CAN,1
+Berlin,1936,EGY,2
+Garmisch-Partenkirchen,1936,EGY,2
+Berlin,1936,EST,2
+Garmisch-Partenkirchen,1936,EST,2
+Berlin,1936,FIN,9
+Garmisch-Partenkirchen,1936,FIN,9
+Berlin,1936,FRA,7
+Garmisch-Partenkirchen,1936,FRA,7
+Berlin,1936,GBR,5
+Garmisch-Partenkirchen,1936,GBR,5
+Berlin,1936,GER,41
+Garmisch-Partenkirchen,1936,GER,41
+Berlin,1936,HUN,10
+Garmisch-Partenkirchen,1936,HUN,10
+Berlin,1936,IND,1
+Garmisch-Partenkirchen,1936,IND,1
+Berlin,1936,ITA,9
+Garmisch-Partenkirchen,1936,ITA,9
+Berlin,1936,JPN,6
+Garmisch-Partenkirchen,1936,JPN,6
+Berlin,1936,NED,6
+Garmisch-Partenkirchen,1936,NED,6
+Berlin,1936,NOR,8
+Garmisch-Partenkirchen,1936,NOR,8
+Berlin,1936,NZL,1
+Garmisch-Partenkirchen,1936,NZL,1
+Berlin,1936,SUI,5
+Garmisch-Partenkirchen,1936,SUI,5
+Berlin,1936,SWE,8
+Garmisch-Partenkirchen,1936,SWE,8
+Berlin,1936,TCH,3
+Garmisch-Partenkirchen,1936,TCH,3
+Berlin,1936,TUR,1
+Garmisch-Partenkirchen,1936,TUR,1
+Berlin,1936,USA,25
+Garmisch-Partenkirchen,1936,USA,25
+London,1948,ARG,3
+Sankt Moritz,1948,ARG,3
+London,1948,AUS,2
+Sankt Moritz,1948,AUS,2
+London,1948,AUT,3
+Sankt Moritz,1948,AUT,3
+London,1948,BEL,3
+Sankt Moritz,1948,BEL,3
+London,1948,CAN,2
+Sankt Moritz,1948,CAN,2
+London,1948,DEN,5
+Sankt Moritz,1948,DEN,5
+London,1948,EGY,2
+Sankt Moritz,1948,EGY,2
+London,1948,FIN,9
+Sankt Moritz,1948,FIN,9
+London,1948,FRA,13
+Sankt Moritz,1948,FRA,13
+London,1948,GBR,4
+Sankt Moritz,1948,GBR,4
+London,1948,HUN,10
+Sankt Moritz,1948,HUN,10
+London,1948,IND,1
+Sankt Moritz,1948,IND,1
+London,1948,ITA,10
+Sankt Moritz,1948,ITA,10
+London,1948,JAM,1
+Sankt Moritz,1948,JAM,1
+London,1948,MEX,2
+Sankt Moritz,1948,MEX,2
+London,1948,NED,5
+Sankt Moritz,1948,NED,5
+London,1948,NOR,5
+Sankt Moritz,1948,NOR,5
+London,1948,PER,1
+Sankt Moritz,1948,PER,1
+London,1948,POL,1
+Sankt Moritz,1948,POL,1
+London,1948,RSA,2
+Sankt Moritz,1948,RSA,2
+London,1948,SUI,8
+Sankt Moritz,1948,SUI,8
+London,1948,SWE,21
+Sankt Moritz,1948,SWE,21
+London,1948,TCH,6
+Sankt Moritz,1948,TCH,6
+London,1948,TUR,6
+Sankt Moritz,1948,TUR,6
+London,1948,USA,41
+Sankt Moritz,1948,USA,41
+Helsinki,1952,ARG,1
+Oslo,1952,ARG,1
+Helsinki,1952,AUS,6
+Oslo,1952,AUS,6
+Helsinki,1952,AUT,2
+Oslo,1952,AUT,2
+Helsinki,1952,BEL,2
+Oslo,1952,BEL,2
+Helsinki,1952,BRA,1
+Oslo,1952,BRA,1
+Helsinki,1952,CAN,2
+Oslo,1952,CAN,2
+Helsinki,1952,DEN,2
+Oslo,1952,DEN,2
+Helsinki,1952,FIN,9
+Oslo,1952,FIN,9
+Helsinki,1952,FRA,6
+Oslo,1952,FRA,6
+Helsinki,1952,GBR,2
+Oslo,1952,GBR,2
+Helsinki,1952,GER,3
+Oslo,1952,GER,3
+Helsinki,1952,HUN,16
+Oslo,1952,HUN,16
+Helsinki,1952,IND,1
+Oslo,1952,IND,1
+Helsinki,1952,ITA,9
+Oslo,1952,ITA,9
+Helsinki,1952,JAM,2
+Oslo,1952,JAM,2
+Helsinki,1952,JPN,1
+Oslo,1952,JPN,1
+Helsinki,1952,LUX,1
+Oslo,1952,LUX,1
+Helsinki,1952,NOR,10
+Oslo,1952,NOR,10
+Helsinki,1952,NZL,1
+Oslo,1952,NZL,1
+Helsinki,1952,POL,1
+Oslo,1952,POL,1
+Helsinki,1952,ROU,1
+Oslo,1952,ROU,1
+Helsinki,1952,RSA,2
+Oslo,1952,RSA,2
+Helsinki,1952,SUI,2
+Oslo,1952,SUI,2
+Helsinki,1952,SWE,12
+Oslo,1952,SWE,12
+Helsinki,1952,TCH,7
+Oslo,1952,TCH,7
+Helsinki,1952,TUR,2
+Oslo,1952,TUR,2
+Helsinki,1952,URS,22
+Oslo,1952,URS,22
+Helsinki,1952,USA,44
+Oslo,1952,USA,44
+Helsinki,1952,YUG,1
+Oslo,1952,YUG,1
+"Cortina d'Ampezzo",1956,AUS,13
+Melbourne,1956,AUS,13
+Stockholm,1956,AUS,13
+"Cortina d'Ampezzo",1956,AUT,4
+Melbourne,1956,AUT,4
+Stockholm,1956,AUT,4
+"Cortina d'Ampezzo",1956,BRA,1
+Melbourne,1956,BRA,1
+Stockholm,1956,BRA,1
+"Cortina d'Ampezzo",1956,BUL,1
+Melbourne,1956,BUL,1
+Stockholm,1956,BUL,1
+"Cortina d'Ampezzo",1956,CAN,2
+Melbourne,1956,CAN,2
+Stockholm,1956,CAN,2
+"Cortina d'Ampezzo",1956,DEN,1
+Melbourne,1956,DEN,1
+Stockholm,1956,DEN,1
+"Cortina d'Ampezzo",1956,FIN,6
+Melbourne,1956,FIN,6
+Stockholm,1956,FIN,6
+"Cortina d'Ampezzo",1956,FRA,4
+Melbourne,1956,FRA,4
+Stockholm,1956,FRA,4
+"Cortina d'Ampezzo",1956,GBR,6
+Melbourne,1956,GBR,6
+Stockholm,1956,GBR,6
+"Cortina d'Ampezzo",1956,GER,7
+Melbourne,1956,GER,7
+Stockholm,1956,GER,7
+"Cortina d'Ampezzo",1956,HUN,9
+Melbourne,1956,HUN,9
+Stockholm,1956,HUN,9
+"Cortina d'Ampezzo",1956,IND,1
+Melbourne,1956,IND,1
+Stockholm,1956,IND,1
+"Cortina d'Ampezzo",1956,IRI,2
+Melbourne,1956,IRI,2
+Stockholm,1956,IRI,2
+"Cortina d'Ampezzo",1956,IRL,1
+Melbourne,1956,IRL,1
+Stockholm,1956,IRL,1
+"Cortina d'Ampezzo",1956,ITA,9
+Melbourne,1956,ITA,9
+Stockholm,1956,ITA,9
+"Cortina d'Ampezzo",1956,JPN,4
+Melbourne,1956,JPN,4
+Stockholm,1956,JPN,4
+"Cortina d'Ampezzo",1956,MEX,1
+Melbourne,1956,MEX,1
+Stockholm,1956,MEX,1
+"Cortina d'Ampezzo",1956,NOR,3
+Melbourne,1956,NOR,3
+Stockholm,1956,NOR,3
+"Cortina d'Ampezzo",1956,NZL,2
+Melbourne,1956,NZL,2
+Stockholm,1956,NZL,2
+"Cortina d'Ampezzo",1956,POL,1
+Melbourne,1956,POL,1
+Stockholm,1956,POL,1
+"Cortina d'Ampezzo",1956,ROU,5
+Melbourne,1956,ROU,5
+Stockholm,1956,ROU,5
+"Cortina d'Ampezzo",1956,SUI,3
+Melbourne,1956,SUI,3
+Stockholm,1956,SUI,3
+"Cortina d'Ampezzo",1956,SWE,10
+Melbourne,1956,SWE,10
+Stockholm,1956,SWE,10
+"Cortina d'Ampezzo",1956,TCH,1
+Melbourne,1956,TCH,1
+Stockholm,1956,TCH,1
+"Cortina d'Ampezzo",1956,TUR,3
+Melbourne,1956,TUR,3
+Stockholm,1956,TUR,3
+"Cortina d'Ampezzo",1956,URS,43
+Melbourne,1956,URS,43
+Stockholm,1956,URS,43
+"Cortina d'Ampezzo",1956,USA,34
+Melbourne,1956,USA,34
+Stockholm,1956,USA,34
+Roma,1960,AUS,8
+Squaw Valley,1960,AUS,8
+Roma,1960,AUT,2
+Squaw Valley,1960,AUT,2
+Roma,1960,BUL,1
+Squaw Valley,1960,BUL,1
+Roma,1960,CAN,2
+Squaw Valley,1960,CAN,2
+Roma,1960,DEN,2
+Squaw Valley,1960,DEN,2
+Roma,1960,ETH,1
+Squaw Valley,1960,ETH,1
+Roma,1960,FIN,3
+Squaw Valley,1960,FIN,3
+Roma,1960,FRA,1
+Squaw Valley,1960,FRA,1
+Roma,1960,GBR,2
+Squaw Valley,1960,GBR,2
+Roma,1960,GER,16
+Squaw Valley,1960,GER,16
+Roma,1960,GRE,1
+Squaw Valley,1960,GRE,1
+Roma,1960,HUN,6
+Squaw Valley,1960,HUN,6
+Roma,1960,ITA,13
+Squaw Valley,1960,ITA,13
+Roma,1960,JPN,4
+Squaw Valley,1960,JPN,4
+Roma,1960,NOR,4
+Squaw Valley,1960,NOR,4
+Roma,1960,NZL,2
+Squaw Valley,1960,NZL,2
+Roma,1960,PAK,1
+Squaw Valley,1960,PAK,1
+Roma,1960,POL,4
+Squaw Valley,1960,POL,4
+Roma,1960,ROU,3
+Squaw Valley,1960,ROU,3
+Roma,1960,SUI,2
+Squaw Valley,1960,SUI,2
+Roma,1960,SWE,4
+Squaw Valley,1960,SWE,4
+Roma,1960,TCH,3
+Squaw Valley,1960,TCH,3
+Roma,1960,TUR,7
+Squaw Valley,1960,TUR,7
+Roma,1960,URS,50
+Squaw Valley,1960,URS,50
+Roma,1960,USA,37
+Squaw Valley,1960,USA,37
+Roma,1960,YUG,1
+Squaw Valley,1960,YUG,1
+Innsbruck,1964,AUS,6
+Tokyo,1964,AUS,6
+Innsbruck,1964,AUT,4
+Tokyo,1964,AUT,4
+Innsbruck,1964,BAH,1
+Tokyo,1964,BAH,1
+Innsbruck,1964,BEL,2
+Tokyo,1964,BEL,2
+Innsbruck,1964,BUL,3
+Tokyo,1964,BUL,3
+Innsbruck,1964,CAN,2
+Tokyo,1964,CAN,2
+Innsbruck,1964,DEN,2
+Tokyo,1964,DEN,2
+Innsbruck,1964,ETH,1
+Tokyo,1964,ETH,1
+Innsbruck,1964,FIN,6
+Tokyo,1964,FIN,6
+Innsbruck,1964,FRA,4
+Tokyo,1964,FRA,4
+Innsbruck,1964,GBR,5
+Tokyo,1964,GBR,5
+Innsbruck,1964,GER,13
+Tokyo,1964,GER,13
+Innsbruck,1964,HUN,10
+Tokyo,1964,HUN,10
+Innsbruck,1964,IND,1
+Tokyo,1964,IND,1
+Innsbruck,1964,ITA,10
+Tokyo,1964,ITA,10
+Innsbruck,1964,JPN,16
+Tokyo,1964,JPN,16
+Innsbruck,1964,NED,3
+Tokyo,1964,NED,3
+Innsbruck,1964,NOR,3
+Tokyo,1964,NOR,3
+Innsbruck,1964,NZL,3
+Tokyo,1964,NZL,3
+Innsbruck,1964,POL,7
+Tokyo,1964,POL,7
+Innsbruck,1964,ROU,2
+Tokyo,1964,ROU,2
+Innsbruck,1964,SUI,1
+Tokyo,1964,SUI,1
+Innsbruck,1964,SWE,5
+Tokyo,1964,SWE,5
+Innsbruck,1964,TCH,5
+Tokyo,1964,TCH,5
+Innsbruck,1964,TUR,2
+Tokyo,1964,TUR,2
+Innsbruck,1964,URS,41
+Tokyo,1964,URS,41
+Innsbruck,1964,USA,37
+Tokyo,1964,USA,37
+Innsbruck,1964,YUG,2
+Tokyo,1964,YUG,2
+Grenoble,1968,AUS,5
+Mexico City,1968,AUS,5
+Grenoble,1968,AUT,3
+Mexico City,1968,AUT,3
+Grenoble,1968,BUL,2
+Mexico City,1968,BUL,2
+Grenoble,1968,CAN,2
+Mexico City,1968,CAN,2
+Grenoble,1968,DEN,1
+Mexico City,1968,DEN,1
+Grenoble,1968,ETH,1
+Mexico City,1968,ETH,1
+Grenoble,1968,FIN,2
+Mexico City,1968,FIN,2
+Grenoble,1968,FRA,11
+Mexico City,1968,FRA,11
+Grenoble,1968,FRG,7
+Mexico City,1968,FRG,7
+Grenoble,1968,GBR,5
+Mexico City,1968,GBR,5
+Grenoble,1968,GDR,10
+Mexico City,1968,GDR,10
+Grenoble,1968,HUN,10
+Mexico City,1968,HUN,10
+Grenoble,1968,IRI,2
+Mexico City,1968,IRI,2
+Grenoble,1968,ITA,7
+Mexico City,1968,ITA,7
+Grenoble,1968,JPN,11
+Mexico City,1968,JPN,11
+Grenoble,1968,KEN,3
+Mexico City,1968,KEN,3
+Grenoble,1968,MEX,3
+Mexico City,1968,MEX,3
+Grenoble,1968,NED,6
+Mexico City,1968,NED,6
+Grenoble,1968,NOR,7
+Mexico City,1968,NOR,7
+Grenoble,1968,NZL,1
+Mexico City,1968,NZL,1
+Grenoble,1968,PAK,1
+Mexico City,1968,PAK,1
+Grenoble,1968,POL,5
+Mexico City,1968,POL,5
+Grenoble,1968,ROU,4
+Mexico City,1968,ROU,4
+Grenoble,1968,SWE,5
+Mexico City,1968,SWE,5
+Grenoble,1968,TCH,8
+Mexico City,1968,TCH,8
+Grenoble,1968,TUN,1
+Mexico City,1968,TUN,1
+Grenoble,1968,TUR,2
+Mexico City,1968,TUR,2
+Grenoble,1968,URS,34
+Mexico City,1968,URS,34
+Grenoble,1968,USA,46
+Mexico City,1968,USA,46
+Grenoble,1968,VEN,1
+Mexico City,1968,VEN,1
+Grenoble,1968,YUG,3
+Mexico City,1968,YUG,3
+Munich,1972,AUS,8
+Sapporo,1972,AUS,8
+Munich,1972,AUT,1
+Sapporo,1972,AUT,1
+Munich,1972,BUL,6
+Sapporo,1972,BUL,6
+Munich,1972,CUB,3
+Sapporo,1972,CUB,3
+Munich,1972,DEN,1
+Sapporo,1972,DEN,1
+Munich,1972,ESP,1
+Sapporo,1972,ESP,1
+Munich,1972,FIN,3
+Sapporo,1972,FIN,3
+Munich,1972,FRA,2
+Sapporo,1972,FRA,2
+Munich,1972,FRG,16
+Sapporo,1972,FRG,16
+Munich,1972,GBR,4
+Sapporo,1972,GBR,4
+Munich,1972,GDR,24
+Sapporo,1972,GDR,24
+Munich,1972,HUN,6
+Sapporo,1972,HUN,6
+Munich,1972,ITA,7
+Sapporo,1972,ITA,7
+Munich,1972,JPN,14
+Sapporo,1972,JPN,14
+Munich,1972,KEN,2
+Sapporo,1972,KEN,2
+Munich,1972,NED,7
+Sapporo,1972,NED,7
+Munich,1972,NOR,4
+Sapporo,1972,NOR,4
+Munich,1972,NZL,1
+Sapporo,1972,NZL,1
+Munich,1972,POL,8
+Sapporo,1972,POL,8
+Munich,1972,PRK,1
+Sapporo,1972,PRK,1
+Munich,1972,ROU,3
+Sapporo,1972,ROU,3
+Munich,1972,SUI,4
+Sapporo,1972,SUI,4
+Munich,1972,SWE,5
+Sapporo,1972,SWE,5
+Munich,1972,TCH,3
+Sapporo,1972,TCH,3
+Munich,1972,UGA,1
+Sapporo,1972,UGA,1
+Munich,1972,URS,58
+Sapporo,1972,URS,58
+Munich,1972,USA,36
+Sapporo,1972,USA,36
+Munich,1972,YUG,2
+Sapporo,1972,YUG,2
+Innsbruck,1976,AUT,2
+Montreal,1976,AUT,2
+Innsbruck,1976,BUL,6
+Montreal,1976,BUL,6
+Innsbruck,1976,CAN,1
+Montreal,1976,CAN,1
+Innsbruck,1976,CUB,6
+Montreal,1976,CUB,6
+Innsbruck,1976,DEN,1
+Montreal,1976,DEN,1
+Innsbruck,1976,FIN,6
+Montreal,1976,FIN,6
+Innsbruck,1976,FRA,2
+Montreal,1976,FRA,2
+Innsbruck,1976,FRG,12
+Montreal,1976,FRG,12
+Innsbruck,1976,GBR,4
+Montreal,1976,GBR,4
+Innsbruck,1976,GDR,47
+Montreal,1976,GDR,47
+Innsbruck,1976,HUN,4
+Montreal,1976,HUN,4
+Innsbruck,1976,ITA,3
+Montreal,1976,ITA,3
+Innsbruck,1976,JAM,1
+Montreal,1976,JAM,1
+Innsbruck,1976,JPN,9
+Montreal,1976,JPN,9
+Innsbruck,1976,KOR,1
+Montreal,1976,KOR,1
+Innsbruck,1976,MEX,1
+Montreal,1976,MEX,1
+Innsbruck,1976,NED,1
+Montreal,1976,NED,1
+Innsbruck,1976,NOR,4
+Montreal,1976,NOR,4
+Innsbruck,1976,NZL,2
+Montreal,1976,NZL,2
+Innsbruck,1976,POL,7
+Montreal,1976,POL,7
+Innsbruck,1976,PRK,1
+Montreal,1976,PRK,1
+Innsbruck,1976,ROU,4
+Montreal,1976,ROU,4
+Innsbruck,1976,SUI,2
+Montreal,1976,SUI,2
+Innsbruck,1976,SWE,4
+Montreal,1976,SWE,4
+Innsbruck,1976,TCH,2
+Montreal,1976,TCH,2
+Innsbruck,1976,TTO,1
+Montreal,1976,TTO,1
+Innsbruck,1976,URS,62
+Montreal,1976,URS,62
+Innsbruck,1976,USA,37
+Montreal,1976,USA,37
+Innsbruck,1976,YUG,2
+Montreal,1976,YUG,2
+Lake Placid,1980,AUS,2
+Moskva,1980,AUS,2
+Lake Placid,1980,AUT,4
+Moskva,1980,AUT,4
+Lake Placid,1980,BEL,1
+Moskva,1980,BEL,1
+Lake Placid,1980,BRA,2
+Moskva,1980,BRA,2
+Lake Placid,1980,BUL,8
+Moskva,1980,BUL,8
+Lake Placid,1980,CUB,8
+Moskva,1980,CUB,8
+Lake Placid,1980,DEN,2
+Moskva,1980,DEN,2
+Lake Placid,1980,ESP,1
+Moskva,1980,ESP,1
+Lake Placid,1980,ETH,2
+Moskva,1980,ETH,2
+Lake Placid,1980,FIN,4
+Moskva,1980,FIN,4
+Lake Placid,1980,FRA,6
+Moskva,1980,FRA,6
+Lake Placid,1980,GBR,6
+Moskva,1980,GBR,6
+Lake Placid,1980,GDR,56
+Moskva,1980,GDR,56
+Lake Placid,1980,GRE,1
+Moskva,1980,GRE,1
+Lake Placid,1980,HUN,7
+Moskva,1980,HUN,7
+Lake Placid,1980,IND,1
+Moskva,1980,IND,1
+Lake Placid,1980,ITA,8
+Moskva,1980,ITA,8
+Lake Placid,1980,LIE,2
+Moskva,1980,LIE,2
+Lake Placid,1980,NED,1
+Moskva,1980,NED,1
+Lake Placid,1980,NOR,1
+Moskva,1980,NOR,1
+Lake Placid,1980,POL,3
+Moskva,1980,POL,3
+Lake Placid,1980,ROU,6
+Moskva,1980,ROU,6
+Lake Placid,1980,SUI,3
+Moskva,1980,SUI,3
+Lake Placid,1980,SWE,6
+Moskva,1980,SWE,6
+Lake Placid,1980,TCH,2
+Moskva,1980,TCH,2
+Lake Placid,1980,URS,90
+Moskva,1980,URS,90
+Lake Placid,1980,USA,6
+Moskva,1980,USA,6
+Lake Placid,1980,YUG,2
+Moskva,1980,YUG,2
+Lake Placid,1980,ZIM,1
+Moskva,1980,ZIM,1
+Los Angeles,1984,AUS,4
+Sarajevo,1984,AUS,4
+Los Angeles,1984,AUT,1
+Sarajevo,1984,AUT,1
+Los Angeles,1984,BEL,1
+Sarajevo,1984,BEL,1
+Los Angeles,1984,BRA,1
+Sarajevo,1984,BRA,1
+Los Angeles,1984,CAN,12
+Sarajevo,1984,CAN,12
+Los Angeles,1984,CHN,15
+Sarajevo,1984,CHN,15
+Los Angeles,1984,ESP,1
+Sarajevo,1984,ESP,1
+Los Angeles,1984,FIN,8
+Sarajevo,1984,FIN,8
+Los Angeles,1984,FRA,5
+Sarajevo,1984,FRA,5
+Los Angeles,1984,FRG,19
+Sarajevo,1984,FRG,19
+Los Angeles,1984,GBR,6
+Sarajevo,1984,GBR,6
+Los Angeles,1984,GDR,9
+Sarajevo,1984,GDR,9
+Los Angeles,1984,ITA,16
+Sarajevo,1984,ITA,16
+Los Angeles,1984,JPN,10
+Sarajevo,1984,JPN,10
+Los Angeles,1984,KEN,1
+Sarajevo,1984,KEN,1
+Los Angeles,1984,KOR,6
+Sarajevo,1984,KOR,6
+Los Angeles,1984,MAR,2
+Sarajevo,1984,MAR,2
+Los Angeles,1984,MEX,2
+Sarajevo,1984,MEX,2
+Los Angeles,1984,NED,5
+Sarajevo,1984,NED,5
+Los Angeles,1984,NOR,3
+Sarajevo,1984,NOR,3
+Los Angeles,1984,NZL,8
+Sarajevo,1984,NZL,8
+Los Angeles,1984,PAK,1
+Sarajevo,1984,PAK,1
+Los Angeles,1984,POR,1
+Sarajevo,1984,POR,1
+Los Angeles,1984,ROU,19
+Sarajevo,1984,ROU,19
+Los Angeles,1984,SUI,2
+Sarajevo,1984,SUI,2
+Los Angeles,1984,SWE,6
+Sarajevo,1984,SWE,6
+Los Angeles,1984,URS,6
+Sarajevo,1984,URS,6
+Los Angeles,1984,USA,86
+Sarajevo,1984,USA,86
+Los Angeles,1984,YUG,7
+Sarajevo,1984,YUG,7
+Calgary,1988,AUS,3
+Seoul,1988,AUS,3
+Calgary,1988,AUT,4
+Seoul,1988,AUT,4
+Calgary,1988,BRA,1
+Seoul,1988,BRA,1
+Calgary,1988,BUL,10
+Seoul,1988,BUL,10
+Calgary,1988,CAN,3
+Seoul,1988,CAN,3
+Calgary,1988,CHN,5
+Seoul,1988,CHN,5
+Calgary,1988,DEN,2
+Seoul,1988,DEN,2
+Calgary,1988,ESP,1
+Seoul,1988,ESP,1
+Calgary,1988,FIN,5
+Seoul,1988,FIN,5
+Calgary,1988,FRA,7
+Seoul,1988,FRA,7
+Calgary,1988,FRG,13
+Seoul,1988,FRG,13
+Calgary,1988,GBR,5
+Seoul,1988,GBR,5
+Calgary,1988,GDR,46
+Seoul,1988,GDR,46
+Calgary,1988,HUN,11
+Seoul,1988,HUN,11
+Calgary,1988,ITA,8
+Seoul,1988,ITA,8
+Calgary,1988,JPN,4
+Seoul,1988,JPN,4
+Calgary,1988,KEN,5
+Seoul,1988,KEN,5
+Calgary,1988,KOR,12
+Seoul,1988,KOR,12
+Calgary,1988,MAR,1
+Seoul,1988,MAR,1
+Calgary,1988,NED,5
+Seoul,1988,NED,5
+Calgary,1988,NOR,2
+Seoul,1988,NOR,2
+Calgary,1988,NZL,3
+Seoul,1988,NZL,3
+Calgary,1988,POL,2
+Seoul,1988,POL,2
+Calgary,1988,POR,1
+Seoul,1988,POR,1
+Calgary,1988,ROU,7
+Seoul,1988,ROU,7
+Calgary,1988,SUI,5
+Seoul,1988,SUI,5
+Calgary,1988,SUR,1
+Seoul,1988,SUR,1
+Calgary,1988,SWE,4
+Seoul,1988,SWE,4
+Calgary,1988,TCH,3
+Seoul,1988,TCH,3
+Calgary,1988,TUR,1
+Seoul,1988,TUR,1
+Calgary,1988,URS,65
+Seoul,1988,URS,65
+Calgary,1988,USA,38
+Seoul,1988,USA,38
+Calgary,1988,YUG,3
+Seoul,1988,YUG,3
+Albertville,1992,ALG,1
+Barcelona,1992,ALG,1
+Albertville,1992,AUS,7
+Barcelona,1992,AUS,7
+Albertville,1992,AUT,6
+Barcelona,1992,AUT,6
+Albertville,1992,BRA,2
+Barcelona,1992,BRA,2
+Albertville,1992,BUL,3
+Barcelona,1992,BUL,3
+Albertville,1992,CAN,9
+Barcelona,1992,CAN,9
+Albertville,1992,CHN,16
+Barcelona,1992,CHN,16
+Albertville,1992,CUB,14
+Barcelona,1992,CUB,14
+Albertville,1992,DEN,1
+Barcelona,1992,DEN,1
+Albertville,1992,ESP,13
+Barcelona,1992,ESP,13
+Albertville,1992,EST,1
+Barcelona,1992,EST,1
+Albertville,1992,ETH,1
+Barcelona,1992,ETH,1
+Albertville,1992,EUN,54
+Barcelona,1992,EUN,54
+Albertville,1992,FIN,4
+Barcelona,1992,FIN,4
+Albertville,1992,FRA,11
+Barcelona,1992,FRA,11
+Albertville,1992,GBR,5
+Barcelona,1992,GBR,5
+Albertville,1992,GER,43
+Barcelona,1992,GER,43
+Albertville,1992,GRE,2
+Barcelona,1992,GRE,2
+Albertville,1992,HUN,11
+Barcelona,1992,HUN,11
+Albertville,1992,INA,2
+Barcelona,1992,INA,2
+Albertville,1992,IRL,1
+Barcelona,1992,IRL,1
+Albertville,1992,ITA,10
+Barcelona,1992,ITA,10
+Albertville,1992,JPN,4
+Barcelona,1992,JPN,4
+Albertville,1992,KEN,2
+Barcelona,1992,KEN,2
+Albertville,1992,KOR,14
+Barcelona,1992,KOR,14
+Albertville,1992,LTU,1
+Barcelona,1992,LTU,1
+Albertville,1992,MAR,1
+Barcelona,1992,MAR,1
+Albertville,1992,NED,3
+Barcelona,1992,NED,3
+Albertville,1992,NOR,9
+Barcelona,1992,NOR,9
+Albertville,1992,NZL,1
+Barcelona,1992,NZL,1
+Albertville,1992,POL,3
+Barcelona,1992,POL,3
+Albertville,1992,PRK,4
+Barcelona,1992,PRK,4
+Albertville,1992,ROU,4
+Barcelona,1992,ROU,4
+Albertville,1992,SUI,2
+Barcelona,1992,SUI,2
+Albertville,1992,SWE,2
+Barcelona,1992,SWE,2
+Albertville,1992,TCH,4
+Barcelona,1992,TCH,4
+Albertville,1992,TUR,2
+Barcelona,1992,TUR,2
+Albertville,1992,USA,42
+Barcelona,1992,USA,42
+Lillehammer,1994,AUT,2
+Lillehammer,1994,CAN,3
+Lillehammer,1994,GER,9
+Lillehammer,1994,ITA,7
+Lillehammer,1994,JPN,1
+Lillehammer,1994,KAZ,1
+Lillehammer,1994,KOR,4
+Lillehammer,1994,NOR,8
+Lillehammer,1994,RUS,11
+Lillehammer,1994,SUI,3
+Lillehammer,1994,SWE,2
+Lillehammer,1994,UKR,1
+Lillehammer,1994,USA,6
+Lillehammer,1994,UZB,1
+Atlanta,1996,ALG,2
+Atlanta,1996,ARM,1
+Atlanta,1996,AUS,9
+Atlanta,1996,BDI,1
+Atlanta,1996,BEL,2
+Atlanta,1996,BLR,1
+Atlanta,1996,BRA,3
+Atlanta,1996,BUL,3
+Atlanta,1996,CAN,3
+Atlanta,1996,CHN,16
+Atlanta,1996,CRC,1
+Atlanta,1996,CRO,1
+Atlanta,1996,CUB,9
+Atlanta,1996,CZE,4
+Atlanta,1996,DEN,4
+Atlanta,1996,ECU,1
+Atlanta,1996,ESP,5
+Atlanta,1996,ETH,2
+Atlanta,1996,FIN,1
+Atlanta,1996,FRA,15
+Atlanta,1996,GBR,1
+Atlanta,1996,GER,20
+Atlanta,1996,GRE,4
+Atlanta,1996,HKG,1
+Atlanta,1996,HUN,7
+Atlanta,1996,INA,1
+Atlanta,1996,IRI,1
+Atlanta,1996,IRL,3
+Atlanta,1996,ITA,13
+Atlanta,1996,JAM,1
+Atlanta,1996,JPN,3
+Atlanta,1996,KAZ,3
+Atlanta,1996,KEN,1
+Atlanta,1996,KOR,7
+Atlanta,1996,NED,4
+Atlanta,1996,NGR,2
+Atlanta,1996,NOR,2
+Atlanta,1996,NZL,3
+Atlanta,1996,POL,7
+Atlanta,1996,POR,1
+Atlanta,1996,PRK,2
+Atlanta,1996,ROU,4
+Atlanta,1996,RSA,3
+Atlanta,1996,RUS,26
+Atlanta,1996,SCG,1
+Atlanta,1996,SUI,4
+Atlanta,1996,SVK,1
+Atlanta,1996,SWE,2
+Atlanta,1996,SYR,1
+Atlanta,1996,THA,1
+Atlanta,1996,TUR,4
+Atlanta,1996,UKR,9
+Atlanta,1996,USA,44
+Nagano,1998,AUT,3
+Nagano,1998,BUL,1
+Nagano,1998,CAN,6
+Nagano,1998,CZE,1
+Nagano,1998,FIN,2
+Nagano,1998,FRA,2
+Nagano,1998,GER,12
+Nagano,1998,ITA,2
+Nagano,1998,JPN,5
+Nagano,1998,KOR,3
+Nagano,1998,NED,5
+Nagano,1998,NOR,8
+Nagano,1998,RUS,9
+Nagano,1998,SUI,2
+Nagano,1998,USA,6
+Sydney,2000,ALG,1
+Sydney,2000,AUS,16
+Sydney,2000,AUT,2
+Sydney,2000,AZE,2
+Sydney,2000,BAH,2
+Sydney,2000,BLR,3
+Sydney,2000,BUL,5
+Sydney,2000,CAN,3
+Sydney,2000,CHN,28
+Sydney,2000,CMR,1
+Sydney,2000,COL,1
+Sydney,2000,CRO,1
+Sydney,2000,CUB,11
+Sydney,2000,CZE,2
+Sydney,2000,DEN,2
+Sydney,2000,ESP,3
+Sydney,2000,EST,1
+Sydney,2000,ETH,4
+Sydney,2000,FIN,2
+Sydney,2000,FRA,13
+Sydney,2000,GBR,11
+Sydney,2000,GER,13
+Sydney,2000,GRE,4
+Sydney,2000,HUN,8
+Sydney,2000,INA,1
+Sydney,2000,IRI,3
+Sydney,2000,ITA,13
+Sydney,2000,JPN,5
+Sydney,2000,KAZ,3
+Sydney,2000,KEN,2
+Sydney,2000,KOR,8
+Sydney,2000,LAT,1
+Sydney,2000,LTU,2
+Sydney,2000,MEX,1
+Sydney,2000,MOZ,1
+Sydney,2000,NED,12
+Sydney,2000,NGR,1
+Sydney,2000,NOR,4
+Sydney,2000,NZL,1
+Sydney,2000,POL,6
+Sydney,2000,ROU,11
+Sydney,2000,RUS,32
+Sydney,2000,SCG,1
+Sydney,2000,SLO,2
+Sydney,2000,SUI,1
+Sydney,2000,SVK,1
+Sydney,2000,SWE,4
+Sydney,2000,THA,1
+Sydney,2000,TUR,3
+Sydney,2000,UKR,3
+Sydney,2000,USA,36
+Sydney,2000,UZB,1
+Salt Lake City,2002,AUS,2
+Salt Lake City,2002,AUT,3
+Salt Lake City,2002,CAN,7
+Salt Lake City,2002,CHN,2
+Salt Lake City,2002,CRO,3
+Salt Lake City,2002,CZE,1
+Salt Lake City,2002,EST,1
+Salt Lake City,2002,FIN,4
+Salt Lake City,2002,FRA,4
+Salt Lake City,2002,GBR,1
+Salt Lake City,2002,GER,12
+Salt Lake City,2002,ITA,4
+Salt Lake City,2002,KOR,2
+Salt Lake City,2002,NED,3
+Salt Lake City,2002,NOR,12
+Salt Lake City,2002,RUS,5
+Salt Lake City,2002,SUI,3
+Salt Lake City,2002,USA,10
+Athina,2004,ARG,2
+Athina,2004,AUS,17
+Athina,2004,AUT,2
+Athina,2004,AZE,1
+Athina,2004,BAH,1
+Athina,2004,BEL,1
+Athina,2004,BLR,2
+Athina,2004,BRA,5
+Athina,2004,BUL,2
+Athina,2004,CAN,3
+Athina,2004,CHI,2
+Athina,2004,CHN,32
+Athina,2004,CMR,1
+Athina,2004,CRO,1
+Athina,2004,CUB,9
+Athina,2004,CZE,1
+Athina,2004,DEN,2
+Athina,2004,DOM,1
+Athina,2004,EGY,1
+Athina,2004,ESP,3
+Athina,2004,ETH,2
+Athina,2004,FRA,11
+Athina,2004,GBR,9
+Athina,2004,GEO,2
+Athina,2004,GER,13
+Athina,2004,GRE,6
+Athina,2004,HUN,8
+Athina,2004,INA,1
+Athina,2004,IRI,2
+Athina,2004,ISR,1
+Athina,2004,ITA,10
+Athina,2004,JAM,2
+Athina,2004,JPN,16
+Athina,2004,KAZ,1
+Athina,2004,KEN,1
+Athina,2004,KOR,9
+Athina,2004,LTU,1
+Athina,2004,MAR,2
+Athina,2004,NED,4
+Athina,2004,NOR,5
+Athina,2004,NZL,3
+Athina,2004,POL,3
+Athina,2004,ROU,8
+Athina,2004,RSA,1
+Athina,2004,RUS,28
+Athina,2004,SUI,1
+Athina,2004,SVK,2
+Athina,2004,SWE,4
+Athina,2004,THA,3
+Athina,2004,TPE,2
+Athina,2004,TUR,3
+Athina,2004,UAE,1
+Athina,2004,UKR,8
+Athina,2004,USA,36
+Athina,2004,UZB,2
+Athina,2004,ZIM,1
+Torino,2006,AUS,1
+Torino,2006,AUT,9
+Torino,2006,CAN,7
+Torino,2006,CHN,2
+Torino,2006,CRO,1
+Torino,2006,CZE,1
+Torino,2006,EST,3
+Torino,2006,FRA,3
+Torino,2006,GER,11
+Torino,2006,ITA,5
+Torino,2006,JPN,1
+Torino,2006,KOR,6
+Torino,2006,NED,3
+Torino,2006,NOR,2
+Torino,2006,RUS,8
+Torino,2006,SUI,5
+Torino,2006,SWE,7
+Torino,2006,USA,9
+Beijing,2008,ARG,2
+Beijing,2008,AUS,14
+Beijing,2008,AZE,1
+Beijing,2008,BEL,1
+Beijing,2008,BLR,4
+Beijing,2008,BRA,3
+Beijing,2008,BUL,1
+Beijing,2008,CAN,3
+Beijing,2008,CHN,51
+Beijing,2008,CMR,1
+Beijing,2008,CUB,2
+Beijing,2008,CZE,3
+Beijing,2008,DEN,2
+Beijing,2008,DOM,1
+Beijing,2008,ESP,5
+Beijing,2008,EST,1
+Beijing,2008,ETH,4
+Beijing,2008,FIN,1
+Beijing,2008,FRA,7
+Beijing,2008,GBR,19
+Beijing,2008,GEO,3
+Beijing,2008,GER,16
+Beijing,2008,HUN,3
+Beijing,2008,INA,1
+Beijing,2008,IND,1
+Beijing,2008,IRI,1
+Beijing,2008,ITA,8
+Beijing,2008,JAM,5
+Beijing,2008,JPN,9
+Beijing,2008,KAZ,2
+Beijing,2008,KEN,6
+Beijing,2008,KOR,13
+Beijing,2008,LAT,1
+Beijing,2008,MEX,2
+Beijing,2008,MGL,2
+Beijing,2008,NED,7
+Beijing,2008,NOR,3
+Beijing,2008,NZL,3
+Beijing,2008,PAN,1
+Beijing,2008,POL,3
+Beijing,2008,POR,1
+Beijing,2008,PRK,2
+Beijing,2008,ROU,4
+Beijing,2008,RUS,23
+Beijing,2008,SLO,1
+Beijing,2008,SUI,2
+Beijing,2008,SVK,3
+Beijing,2008,THA,2
+Beijing,2008,TTO,1
+Beijing,2008,TUN,1
+Beijing,2008,TUR,1
+Beijing,2008,UKR,7
+Beijing,2008,USA,36
+Beijing,2008,UZB,1
+Beijing,2008,ZIM,1
+Vancouver,2010,AUS,2
+Vancouver,2010,AUT,4
+Vancouver,2010,BLR,1
+Vancouver,2010,CAN,14
+Vancouver,2010,CHN,5
+Vancouver,2010,CZE,2
+Vancouver,2010,FRA,2
+Vancouver,2010,GBR,1
+Vancouver,2010,GER,10
+Vancouver,2010,ITA,1
+Vancouver,2010,KOR,6
+Vancouver,2010,NED,4
+Vancouver,2010,NOR,9
+Vancouver,2010,POL,1
+Vancouver,2010,RUS,3
+Vancouver,2010,SUI,6
+Vancouver,2010,SVK,1
+Vancouver,2010,SWE,5
+Vancouver,2010,USA,9
+London,2012,ALG,1
+London,2012,ARG,1
+London,2012,AUS,7
+London,2012,AZE,2
+London,2012,BAH,1
+London,2012,BLR,2
+London,2012,BRA,3
+London,2012,CAN,1
+London,2012,CHN,38
+London,2012,COL,1
+London,2012,CRO,3
+London,2012,CUB,5
+London,2012,CZE,4
+London,2012,DEN,2
+London,2012,DOM,1
+London,2012,ESP,3
+London,2012,ETH,3
+London,2012,FRA,11
+London,2012,GBR,29
+London,2012,GEO,1
+London,2012,GER,11
+London,2012,GRN,1
+London,2012,HUN,8
+London,2012,IRI,4
+London,2012,IRL,1
+London,2012,ITA,8
+London,2012,JAM,4
+London,2012,JPN,7
+London,2012,KAZ,7
+London,2012,KEN,2
+London,2012,KOR,13
+London,2012,LAT,1
+London,2012,LTU,2
+London,2012,MEX,1
+London,2012,NED,6
+London,2012,NOR,2
+London,2012,NZL,6
+London,2012,POL,2
+London,2012,PRK,4
+London,2012,ROU,2
+London,2012,RSA,3
+London,2012,RUS,24
+London,2012,SLO,1
+London,2012,SRB,1
+London,2012,SUI,2
+London,2012,SWE,1
+London,2012,TTO,1
+London,2012,TUN,1
+London,2012,TUR,2
+London,2012,UGA,1
+London,2012,UKR,6
+London,2012,USA,46
+London,2012,UZB,1
+London,2012,VEN,1
+Sochi,2014,AUT,4
+Sochi,2014,BLR,5
+Sochi,2014,CAN,10
+Sochi,2014,CHN,3
+Sochi,2014,CZE,2
+Sochi,2014,FIN,1
+Sochi,2014,FRA,4
+Sochi,2014,GBR,1
+Sochi,2014,GER,8
+Sochi,2014,JPN,1
+Sochi,2014,KOR,3
+Sochi,2014,NED,8
+Sochi,2014,NOR,11
+Sochi,2014,POL,4
+Sochi,2014,RUS,13
+Sochi,2014,SLO,2
+Sochi,2014,SUI,6
+Sochi,2014,SVK,1
+Sochi,2014,SWE,2
+Sochi,2014,UKR,1
+Sochi,2014,USA,9
+Rio de Janeiro,2016,ARG,3
+Rio de Janeiro,2016,ARM,1
+Rio de Janeiro,2016,AUS,8
+Rio de Janeiro,2016,AZE,1
+Rio de Janeiro,2016,BAH,1
+Rio de Janeiro,2016,BEL,2
+Rio de Janeiro,2016,BLR,1
+Rio de Janeiro,2016,BRA,7
+Rio de Janeiro,2016,BRN,1
+Rio de Janeiro,2016,CAN,4
+Rio de Janeiro,2016,CHN,26
+Rio de Janeiro,2016,CIV,1
+Rio de Janeiro,2016,COL,3
+Rio de Janeiro,2016,CRO,5
+Rio de Janeiro,2016,CUB,5
+Rio de Janeiro,2016,CZE,1
+Rio de Janeiro,2016,DEN,2
+Rio de Janeiro,2016,ESP,7
+Rio de Janeiro,2016,ETH,1
+Rio de Janeiro,2016,FIJ,1
+Rio de Janeiro,2016,FRA,10
+Rio de Janeiro,2016,GBR,27
+Rio de Janeiro,2016,GEO,2
+Rio de Janeiro,2016,GER,17
+Rio de Janeiro,2016,GRE,3
+Rio de Janeiro,2016,HUN,8
+Rio de Janeiro,2016,INA,1
+Rio de Janeiro,2016,IOA,1
+Rio de Janeiro,2016,IRI,3
+Rio de Janeiro,2016,ITA,8
+Rio de Janeiro,2016,JAM,6
+Rio de Janeiro,2016,JOR,1
+Rio de Janeiro,2016,JPN,12
+Rio de Janeiro,2016,KAZ,3
+Rio de Janeiro,2016,KEN,6
+Rio de Janeiro,2016,KOR,9
+Rio de Janeiro,2016,KOS,1
+Rio de Janeiro,2016,NED,8
+Rio de Janeiro,2016,NZL,4
+Rio de Janeiro,2016,POL,2
+Rio de Janeiro,2016,PRK,2
+Rio de Janeiro,2016,PUR,1
+Rio de Janeiro,2016,ROU,1
+Rio de Janeiro,2016,RSA,2
+Rio de Janeiro,2016,RUS,19
+Rio de Janeiro,2016,SGP,1
+Rio de Janeiro,2016,SLO,1
+Rio de Janeiro,2016,SRB,2
+Rio de Janeiro,2016,SUI,3
+Rio de Janeiro,2016,SVK,2
+Rio de Janeiro,2016,SWE,2
+Rio de Janeiro,2016,THA,2
+Rio de Janeiro,2016,TJK,1
+Rio de Janeiro,2016,TPE,1
+Rio de Janeiro,2016,TUR,1
+Rio de Janeiro,2016,UKR,2
+Rio de Janeiro,2016,USA,46
+Rio de Janeiro,2016,UZB,4
+Rio de Janeiro,2016,VIE,1
